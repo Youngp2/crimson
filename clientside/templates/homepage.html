@@ -1,0 +1,359 @@
+{% extends 'index1.html' %}
+{% load static %}
+{% block home_active %} active {% endblock %}
+
+{% block content %}
+ <!-- Hero Section -->
+ <section id="hero" class="hero section">
+
+    <img src="{% static 'assets/img/hero-bg.png' %}" alt="" data-aos="fade-in">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10">
+          <h2 data-aos="fade-up" data-aos-delay="100">Welcome to Crimson Route Express</h2>
+          <p data-aos="fade-up" data-aos-delay="200"> Contact us today and let us take care of your logistics needs.</p>
+
+        </div>
+        <div class="col-lg-5">
+            <a href="{% url 'clientside:track' %}" class="btn-get-started "><button class="btn btn-danger" type="submit">Track Your Package</button></a>
+
+        </div>
+      </div>
+    </div>
+
+  </section><!-- /Hero Section -->
+  
+    <!-- Clients Section -->
+    <section id="clients" class="clients section">
+
+        <div class="container" data-aos="fade-up">
+  
+          <div class="row gy-4">
+  
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img src="{% static 'assets/img/clients/client-1.png' %}" class="img-fluid" alt="">
+            </div><!-- End Client Item -->
+  
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img src="{% static 'assets/img/clients/client-2.png' %}" class="img-fluid" alt="">
+            </div><!-- End Client Item -->
+  
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img src="{% static 'assets/img/clients/client-3.png' %}" class="img-fluid" alt="">
+            </div><!-- End Client Item -->
+  
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img src="{% static 'assets/img/clients/client-4.png' %}" class="img-fluid" alt="">
+            </div><!-- End Client Item -->
+  
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img src="{% static 'assets/img/clients/client-5.png' %}" class="img-fluid" alt="">
+            </div><!-- End Client Item -->
+  
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img src="{% static 'assets/img/clients/client-6.png' %}" class="img-fluid" alt="">
+            </div><!-- End Client Item -->
+  
+          </div>
+  
+        </div>
+  
+      </section><!-- /Clients Section -->
+  
+      <!-- About Section -->
+      <section id="about" class="about section">
+  
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row align-items-xl-center gy-5">
+  
+            <div class="col-xl-5 content">
+              <h3>About Us</h3>
+              <h2>Crimson Route Logistics</h2>
+              <p>Company dedicated to providing efficient and reliable shipping and transportation solutions. With years of industry experience, we have built a reputation for excellence, customer satisfaction, and a commitment to meeting the diverse needs of our clients.
+            </p>
+              <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+  
+            <div class="col-xl-7">
+              <div class="row gy-4 icon-boxes">
+  
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                  <div class="icon-box">
+                    <i class="bi bi-buildings"></i>
+                    <h3>Global Network</h3>
+                    <p>Our extensive global network of partners and carriers enables us to offer comprehensive coverage and reach in numerous countries and regions worldwide.</p>
+                  </div>
+                </div> <!-- End Icon Box -->
+  
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-box">
+                    <i class="bi bi-clipboard-pulse"></i>
+                    <h3>We are committed to delivering exceptional service</h3>
+                    <p>We optimize your operations, and exceed your expectations at every step</p>
+                  </div>
+                </div> <!-- End Icon Box -->
+  
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                  <div class="icon-box">
+                    <i class="bi bi-command"></i>
+                    <h3>Transparency and open communication</h3>
+                    <p>Are fundamental values for us. We believe in building strong and collaborative relationships with our clients, based on trust, integrity, and mutual success</p>
+                  </div>
+                </div> <!-- End Icon Box -->
+  
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                  <div class="icon-box">
+                    <i class="bi bi-graph-up-arrow"></i>
+                    <h3>Experience reliability and efficiency</h3>
+                    <p>Contact us today to discuss how we can support your logistics requirements and contribute to the success of your business.</p>
+                  </div>
+                </div> <!-- End Icon Box -->
+  
+              </div>
+            </div>
+  
+          </div>
+        </div>
+  
+      </section><!-- /About Section -->
+      <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+        <img src="{% static 'assets/img/stats-bg.jpg' %}" alt="" data-aos="fade-in">
+  
+        <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+  
+          <div class="row gy-4">
+  
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Clients</p>
+              </div>
+            </div><!-- End Stats Item -->
+  
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Projects</p>
+              </div>
+            </div><!-- End Stats Item -->
+  
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hours Of Support</p>
+              </div>
+            </div><!-- End Stats Item -->
+  
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Workers</p>
+              </div>
+            </div><!-- End Stats Item -->
+  
+          </div>
+  
+        </div>
+  
+      </section><!-- /Stats Section -->
+      
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Services</h2>
+          <p>A courier company providing a range of services aimed at facilitating the transportation and delivery of packages, documents, and goods.</p>
+        </div><!-- End Section Title -->
+  
+        <div class="container">
+  
+          <div class="row gy-4">
+  
+            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+                <div>
+                  <h4 class="title"><a href="" class="stretched-link">Storage</a></h4>
+                  <p class="description">We understand that proper storage is crucial for businesses to efficiently manage inventory and streamline their operations. Whether you require short-term or long-term storage</p>
+                </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+  
+            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+                <div>
+                  <h4 class="title"><a href="#" class="stretched-link">Trucking</a></h4>
+                  <p class="description">We have built an extensive network of trusted carriers across various regions. Our partnerships with reputable trucking companies enable us to provide reliable and efficient transportation services, ensuring your goods reach their destination on time.</p>
+                </div>
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+                <div>
+                  <h4 class="title"><a href="#" class="stretched-link">Logistics</a></h4>
+                  <p class="description" >We offer comprehensive logistics services to support your supply chain and streamline the movement of goods from point of origin to the final destination. We understand the complexities of logistics management and provide tailored solutions to meet your specific requirements</p>
+                </div>
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
+                <div>
+                  <h4 class="title"><a href="#" class="stretched-link">Warehousing</a></h4>
+                  <p class="description">We have state-of-the-art warehousing facilities equipped with advanced security systems to ensure the safety and protection of your goods. Our facilities are monitored 24/7, and we have strict access control measures in place to prevent unauthorized entry.</p>
+                </div>
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="500">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+                <div>
+                  <h4 class="title"><a href="#" class="stretched-link">Packaging</a></h4>
+                  <p class="description">Our experienced team can assist you in designing custom packaging solutions that meet your specific requirements. We take into consideration the nature of your products, their fragility, and any specific handling instructions to create packaging that provides optimal protection.</p>
+                </div>
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="600">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
+                <div>
+                  <h4 class="title"><a href="#" class="stretched-link">Cargo</a></h4>
+                  <p class="description">We understand the importance of protecting your valuable cargo. As part of our cargo services, we offer comprehensive cargo insurance options to provide additional peace of mind. Our insurance coverage protects against loss, damage, or theft during transportation, offering financial security for your goods.</p>
+                </div>
+              </div>
+            </div><!-- End Service Item -->
+  
+          </div>
+  
+        </div>
+  
+      </section><!-- /Services Section -->
+      <!-- Features Section -->
+    <section id="features" class="features section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Features</h2>
+          <p>Our extensive global network of partners and carriers enables us to offer comprehensive coverage and reach in numerous countries and regions worldwide</p>
+        </div><!-- End Section Title -->
+  
+        <div class="container">
+  
+          <div class="row gy-4 align-items-center features-item">
+            <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+              <h3>comprehensive international shipping service</h3>
+              <p>
+                you can trust us to handle the complexities of global logistics while ensuring the safe and timely delivery of your packages. We aim to make international shipping convenient and reliable, allowing you to expand your business globally or stay connected with loved ones across borders.
+              </p>
+              <a href="#" class="btn btn-get-started">Get Started</a>
+            </div>
+            <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+              <div class="image-stack">
+                <img src="{% static 'assets/img/features-light-1.png' %}" alt="" class="stack-front">
+                <img src="{% static 'assets/img/features-light-2.png' %}" alt="" class="stack-back">
+              </div>
+            </div>
+          </div><!-- Features Item -->
+  
+          <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+            <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
+              <img src="{% static 'assets/img/features-light-3.png' %}" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
+              <h3>Real-Time Tracking and Visibility</h3>
+              <p>There are several widely used tracking services available that can help you track your packages and shipments. Here are a few popular tracking services: We provide robust tracking capabilities that allow you to monitor the status of your packages in real-time. Our tracking numbers, online portals, and mobile apps keep you informed about shipment progress, estimated delivery times, and provide notifications throughout the entire delivery process.</p>
+              <a href="#" class="btn btn-get-started align-self-start">Get Started</a>
+            </div>
+          </div><!-- Features Item -->
+  
+        </div>
+  
+      </section><!-- /Features Section -->
+       <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+        <div class="container">
+  
+          <div class="row gy-4">
+  
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="content px-xl-5">
+                <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
+                <p>
+                </p>
+              </div>
+            </div>
+  
+            <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+  
+              <div class="faq-container">
+                <div class="faq-item faq-active">
+                  <h3><span class="num">1.</span> <span>Can I ship items of any size internationally? </span></h3>
+                  <div class="faq-content">
+                    <p>While most items can be shipped internationally, there may be restrictions on certain sizes, weights, or types of goods imposed by carriers or customs regulations. It is important to check the specific regulations and requirements of the destination country. Our team can assist you in determining any size or weight restrictions and provide guidance on shipping options for your specific items.              </p>
+                </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+  
+                <div class="faq-item">
+                  <h3><span class="num">2.</span> <span>Do you provide insurance for international shipping? </span></h3>
+                  <div class="faq-content">
+                    <p>Yes, we offer insurance options for international shipments to provide added protection. Our insurance coverage safeguards your packages against loss, damage, or theft during transit. It is recommended to consider insurance for valuable or fragile items. Our team can provide information on insurance options and help you choose the coverage that best suits your needs.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+  
+                <div class="faq-item">
+                  <h3><span class="num">3.</span> <span>Is tracking availible for international shipments? </span></h3>
+                  <div class="faq-content">
+                    <p>Yes, we offer tracking services for international shipments. Once your package is in transit, you can easily track its progress online through our tracking system. You will receive a tracking number that allows you to monitor the shipment's journey, view real-time updates, and stay informed about its estimated delivery date.              </p>
+                </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+  
+                <div class="faq-item">
+                  <h3><span class="num">4.</span> <span>What documents are needed for international shipping? </span></h3>
+                  <div class="faq-content">
+                    <p>The specific documents required may vary depending on the destination and the nature of the shipment. However, common documents include a commercial invoice, packing list, and any necessary permits or licenses. Our team will guide you through the documentation process and ensure that all required paperwork is properly prepared.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+  
+                <div class="faq-item">
+                  <h3><span class="num">5.</span> <span>How long does international shipping usually take? </span></h3>
+                  <div class="faq-content">
+                    <p>The duration of international shipping depends on various factors such as the destination, shipping method chosen, customs clearance, and any unforeseen circumstances. Generally, international shipments can range from a few days to several weeks. We provide estimated delivery times based on the destination and selected shipping service to give you a better idea of the timeframe.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+  
+              </div>
+  
+            </div>
+          </div>
+  
+        </div>
+  
+      </section><!-- /Faq Section -->
+  
+  
+  
+{% endblock %}
+
