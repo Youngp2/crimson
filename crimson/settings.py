@@ -78,10 +78,22 @@ WSGI_APPLICATION = 'crimson.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'da01rn4b7dvl9i',
+        'USER': 'u2v8ds2v4eeaen',
+        'PASSWORD': 'p17b8b38a786151aa5acd3dc10341bf628ebd2b048058d99147c62bbd955209f1',
+        'PORT': '5432',
+        'HOST': 'c3gtj1dt5vh48j.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
+        
     }
 }
 
